@@ -55,6 +55,44 @@ section{
     font-size: 3vw;
 }
 
-section>p{
+section > p{
     padding-bottom: 2em;
+}
+
+section.normal{
+    background-color:#011526b4 ;
+    color: white;
+}
+
+section.image{
+    background-color:#bf1f2cd2 ;
+    color: white;
+    box-shadow: inset 6.5px 6.5px 13px 0px rgba(0, 0, 0, 0.404);
+    background-attachment: fixed;
+}
+
+section.image >p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.473);
+    padding: 6px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.363);
+}
+
+section#img01{
+    background-image: url(../Imagens/backgroundimg001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02{
+    background-image:url(../Imagens/backgroundimg002.jpg);
+    background-size: cover;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
 }
