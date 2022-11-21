@@ -1,9 +1,10 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family= Alex+Brush & display = swap');
+
+@import url('https://fonts.googleapis.com/css2?family= Delius & display = swap');
 @import url('https://fonts.googleapis.com/css2?family= Roboto+Slab:wght@300 & display = swap');
 
 :root{
-    --fonttitulos:'Alex Brush', cursiva;
+    --fonttitulos: 'Delius', cursive;
     --fontpadrao:'Helvetica', sans-serif;
     --fontconteudo:'Roboto Slab', serif;
 }
@@ -11,6 +12,19 @@
 
 html, body {
     min-height: 100vh;
-    background-color: lightred; 
-    font-family: 
+    background-color:#027333; 
+    font-family: var(--fontconteudo)
+}
+
+header{
+    background-color:#F22E2E;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 45px;
+    font-variant: small-caps;
+    font-family: var(--fonttitulos);
+    font-size: 10vh;
 }
