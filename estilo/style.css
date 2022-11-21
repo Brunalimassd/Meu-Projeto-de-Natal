@@ -1,0 +1,16 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family= Alex+Brush & display = swap');
+@import url('https://fonts.googleapis.com/css2?family= Roboto+Slab:wght@300 & display = swap');
+
+:root{
+    --fonttitulos:'Alex Brush', cursiva;
+    --fontpadrao:'Helvetica', sans-serif;
+    --fontconteudo:'Roboto Slab', serif;
+}
+
+
+html, body {
+    min-height: 100vh;
+    background-color: lightred; 
+    font-family: 
+}
